@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.result.HelloController">
+    <children>
+        <Button layoutX="52.0" layoutY="473.0" mnemonicParsing="false" onAction="#back" text="back" />
+        <TextField layoutX="161.0" layoutY="48.0" text="sem 2" />
+        <Label fx:id="eng2" contentDisplay="CENTER" layoutX="22.0" layoutY="130.0" prefHeight="26.0" prefWidth="141.0" text="ProfessionalENGLISH" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+        </Label>
+        <Label fx:id="eg" layoutX="24.0" layoutY="165.0" prefHeight="19.0" prefWidth="134.0" text="Engg.GRAPHICS">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="p2" layoutX="24.0" layoutY="200.0" prefHeight="26.0" prefWidth="134.0" text="PHYSICS FOR INFO SCIENCE" />
+        <Label fx:id="c" alignment="CENTER" layoutX="16.0" layoutY="235.0" prefHeight="20.0" prefWidth="142.0" text="C PROGRAMING">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="m2" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="25.0" layoutY="263.0" prefHeight="26.0" prefWidth="134.0" text="STATISTICS AND NUM METHODS" />
+        <TextField fx:id="eng" layoutX="162.0" layoutY="131.0" />
+        <TextField fx:id="chem" layoutX="162.0" layoutY="162.0" />
+        <TextField fx:id="phy" layoutX="164.0" layoutY="197.0" />
+        <TextField fx:id="math" layoutX="164.0" layoutY="232.0" />
+        <TextField fx:id="pspp" layoutX="164.0" layoutY="264.0" />
+    </children>
+</AnchorPane>

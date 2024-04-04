@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1f82c7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.result.hellocontroller3">
+    <Button layoutX="31.0" layoutY="302.0" mnemonicParsing="false" onAction="#back3" text="back" />
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="126.0" layoutY="85.0" prefHeight="26.0" prefWidth="141.0" style="-fx-background-color: YELLOW;" text="OOP's" textAlignment="CENTER" wrapText="true">
+        <font>
+            <Font name="System Bold" size="14.0" />
+        </font>
+    </Label>
+    <Label alignment="CENTER" layoutX="125.0" layoutY="120.0" prefHeight="22.0" prefWidth="142.0" style="-fx-background-color: YELLOW;" text="FDSc">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <Label alignment="CENTER" layoutX="125.0" layoutY="153.0" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: YELLOW;" text="DS">
+        <font>
+            <Font name="System Bold" size="14.0" />
+        </font>
+    </Label>
+    <Label alignment="CENTER" layoutX="125.0" layoutY="188.0" prefHeight="23.0" prefWidth="142.0" style="-fx-background-color: YELLOW;" text="D-MATHEMATICS">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <Label alignment="CENTER" layoutX="125.0" layoutY="222.0" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: YELLOW;" text="DPCO">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <TextField fx:id="oop" layoutX="283.0" layoutY="85.0" />
+    <TextField fx:id="fdsc" layoutX="283.0" layoutY="119.0" />
+    <TextField fx:id="ds" layoutX="283.0" layoutY="154.0" />
+    <TextField fx:id="m3" layoutX="283.0" layoutY="187.0" />
+    <TextField fx:id="dpco" layoutX="283.0" layoutY="222.0" />
+    <Button layoutX="464.0" layoutY="302.0" mnemonicParsing="false" onAction="#next3" text="next" />
+   <Label alignment="CENTER" prefHeight="31.0" prefWidth="600.0" style="-fx-background-color: YELLOW;" text="Semester 3 marks:">
+      <font>
+         <Font name="System Bold Italic" size="26.0" />
+      </font>
+   </Label>
+   <Label fx:id="s21" contentDisplay="CENTER" layoutX="433.0" layoutY="72.0" prefHeight="26.0" prefWidth="141.0" textAlignment="CENTER" visible="false" wrapText="true">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="s22" contentDisplay="CENTER" layoutX="433.0" layoutY="98.0" prefHeight="26.0" prefWidth="141.0" textAlignment="CENTER" visible="false" wrapText="true">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="s23" contentDisplay="CENTER" layoutX="433.0" layoutY="143.0" prefHeight="26.0" prefWidth="141.0" textAlignment="CENTER" visible="false" wrapText="true">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="s24" contentDisplay="CENTER" layoutX="433.0" layoutY="184.0" prefHeight="26.0" prefWidth="141.0" textAlignment="CENTER" visible="false" wrapText="true">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="s25" contentDisplay="CENTER" layoutX="433.0" layoutY="222.0" prefHeight="26.0" prefWidth="141.0" textAlignment="CENTER" visible="false" wrapText="true">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="s26" contentDisplay="CENTER" layoutX="443.0" layoutY="232.0" prefHeight="26.0" prefWidth="141.0" textAlignment="CENTER" visible="false" wrapText="true">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="val" layoutX="172.0" layoutY="319.0" prefHeight="18.0" prefWidth="239.0" textFill="#ff0606">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+</AnchorPane>

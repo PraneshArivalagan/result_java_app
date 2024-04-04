@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1f82c7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.result.HelloController">
+   <Button layoutX="33.0" layoutY="340.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: Yellow;" text="back" textFill="#0009ff">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Button>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="127.0" prefHeight="26.0" prefWidth="141.0" style="-fx-background-color: YELLOW;" text="ENGLISH" textAlignment="CENTER" textFill="#131313" wrapText="true">
+      <font>
+         <Font name="Goudy Old Style Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="120.0" layoutY="170.0" prefHeight="20.0" prefWidth="142.0" style="-fx-background-color: YELLOW;" text="Engg.CHEMISTRY" textFill="#111111">
+      <font>
+         <Font name="Goudy Old Style Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="120.0" layoutY="203.0" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: YELLOW;" text="Engg.PHYSICS" textFill="#131313">
+      <font>
+         <Font name="Goudy Old Style Bold" size="15.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="119.0" layoutY="243.0" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: YELLOW;" text="Engg.MATHEMATICS" textFill="#131313">
+      <font>
+         <Font name="Goudy Old Style Bold" size="14.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="119.0" layoutY="288.0" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: YELLOW;" text="PSPP" textFill="#131313">
+      <font>
+         <Font name="Goudy Old Style Bold" size="15.0" />
+      </font>
+   </Label>
+   <TextField fx:id="eng" layoutX="271.0" layoutY="129.0" />
+   <TextField fx:id="chem" layoutX="271.0" layoutY="167.0" />
+   <TextField fx:id="phy" layoutX="271.0" layoutY="206.0" />
+   <TextField fx:id="math" layoutX="271.0" layoutY="244.0" />
+   <TextField fx:id="pspp" layoutX="271.0" layoutY="288.0" />
+   <Button layoutX="540.0" layoutY="340.0" mnemonicParsing="false" onAction="#next2" style="-fx-background-color: Yellow;" text="next" textFill="#1a00ff">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Button>
+   <Label fx:id="per1" layoutX="460.0" layoutY="14.0" prefHeight="18.0" prefWidth="119.0" visible="false" />
+   <Label fx:id="per2" layoutX="460.0" layoutY="39.0" prefHeight="18.0" prefWidth="119.0" visible="false" />
+   <Label fx:id="per3" layoutX="466.0" layoutY="64.0" prefHeight="18.0" prefWidth="119.0" visible="false" />
+   <Label fx:id="per4" layoutX="466.0" layoutY="89.0" prefHeight="18.0" prefWidth="119.0" visible="false" />
+   <Label fx:id="per5" layoutX="480.0" layoutY="107.0" prefHeight="18.0" prefWidth="119.0" visible="false" />
+   <Label fx:id="per6" layoutX="480.0" layoutY="134.0" prefHeight="18.0" prefWidth="119.0" visible="false" />
+   <Label alignment="CENTER" layoutX="-1.0" layoutY="-1.0" prefHeight="50.0" prefWidth="646.0" style="-fx-background-color: WHITE;" text="Semester 1 Marks" textAlignment="CENTER" textFill="#131313d4" wrapText="true">
+      <font>
+         <Font name="System Bold" size="29.0" />
+      </font>
+   </Label>
+   <Label fx:id="val" layoutX="177.0" layoutY="350.0" prefHeight="18.0" prefWidth="227.0" textFill="RED">
+      <font>
+         <Font size="21.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="85.0" prefHeight="26.0" prefWidth="141.0" style="-fx-background-color: YELLOW;" text="SUBJECT" textAlignment="CENTER" textFill="#131313" wrapText="true">
+      <font>
+         <Font name="System Bold" size="16.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="271.0" layoutY="85.0" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: YELLOW;" text="MARK" textAlignment="CENTER" textFill="#131313" wrapText="true">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font>
+   </Label>
+</AnchorPane>
